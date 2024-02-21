@@ -1,4 +1,6 @@
 function [ RRI_ALL ] = get_RRI(data,fs,tw)
+
+
 ini=1;
 flag=1;
 ecg_w=data(end-(tw*fs):end );

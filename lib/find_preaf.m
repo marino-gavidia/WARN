@@ -1,11 +1,11 @@
 function [pre_af_ini] = find_preaf(data,AF_ini,fs,dis_tresh,tw,mean_rri)
+
 m=60*fs;
 interval=length(data)-5*m:length(data);
 pre_af_ini=0;
 flag=1;
 count=1;
 while flag && interval(1)>1
-
     x=data(interval);
     RRI=get_RRI(x,fs,tw);
     std_RRI=[];

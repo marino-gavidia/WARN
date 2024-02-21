@@ -1,6 +1,5 @@
 function [] = gen_dat( tw, dim, fs, delay,dE, dis_tresh,inputf, outputf,SAMPLES,rp)
 
-
 for l= 1:height(SAMPLES)
     disp(SAMPLES{l,1}{1})
     [~,n_file]=fileparts(SAMPLES{l,1});
@@ -20,4 +19,5 @@ for l= 1:height(SAMPLES)
     gen_rp(DATA,SEGMENTATION,file,tw,fs,[dim dim],delay,dE,rp);
 
 end
+
 end

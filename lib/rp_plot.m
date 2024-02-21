@@ -1,4 +1,5 @@
 function[RP] = rp_plot(data,delay,dE)
+
 % Recurrence Plot (RP) parameters
 N=length(data);
 % delay;  % defined with the autocorrelation function (linear, quadratic)

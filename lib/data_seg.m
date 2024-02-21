@@ -1,4 +1,5 @@
 function [SEGMENTATION] = data_seg(DATA,LABELS,dis_tresh,tw,n_file )
+
 N=length(DATA);
 %% Sampling frequency
 fs=LABELS{n_file,2};
@@ -9,6 +10,7 @@ mean_rri=trimmean(horzcat(RR_T{:}),5);
 %% Data Segmentation
 SEGMENTATION=[];
 SR_ini=1;
+
 for tt=3:width(LABELS)
     try
         AF=split(LABELS{n_file,tt}{:},'-');
