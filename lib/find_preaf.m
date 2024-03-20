@@ -16,7 +16,7 @@ function [pre_af_ini] = find_preaf(data, AF_ini, fs, dis_thresh, tw, mean_rri)
 %   Outputs:
 %       pre_af_ini - The start index for the pre-AF phase in the data.
 %
-%   Gavidia, M., Zhu, H., Montanari, A. N., Fuentes, J., Cheng, C., Dubner, S., ... & Goncalves, J. (2022). 
+%   Gavidia, M., Zhu, H., Montanari, A. N., Fuentes, J., Cheng, C., Dubner, S., ... & Goncalves, J. 
 %   Early Warning of Atrial Fibrillation Using Deep Learning. 
 %   Patterns, 2024.
 
