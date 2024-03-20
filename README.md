@@ -6,7 +6,7 @@ This repository provides scripts and libraries for training a neural network mod
 
 Please cite the following work if you use this code or data:
 
-Gavidia, M., Zhu, H., Montanari, A. N., Fuentes, J., Cheng, C., Dubner, S., ... & Goncalves, J. (2022).
+Gavidia, M., Zhu, H., Montanari, A. N., Fuentes, J., Cheng, C., Dubner, S., ... & Goncalves, J.
 Early Warning of Atrial Fibrillation Using Deep Learning. Patterns, 2024.
 
 
