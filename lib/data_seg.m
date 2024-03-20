@@ -17,7 +17,7 @@ function [SEGMENTATION] = data_seg(DATA, fs, LABELS, dis_thresh, tw, n_file)
 %       SEGMENTATION - An array indicating the segmented parts of the input data.
 %                      1 = Sinus Rhythm (SR), 2 = Pre-AF, 3 = AF
 %
-%   Gavidia, M., Zhu, H., Montanari, A. N., Fuentes, J., Cheng, C., Dubner, S., ... & Goncalves, J. (2022). 
+%   Gavidia, M., Zhu, H., Montanari, A. N., Fuentes, J., Cheng, C., Dubner, S., ... & Goncalves, J. 
 %   Early Warning of Atrial Fibrillation Using Deep Learning. 
 %   Patterns, 2024.
 
